@@ -13,6 +13,6 @@
     "vite": "^5.1.6"
   },
   "dependencies": {
-    "provenance-widgets": "https://www.dropbox.com/scl/fi/4112zqx985xcw1bylib31/provenance-widgets-0.0.1.tgz?rlkey=wkd8p7k36gzcl1atggr5ic7wv&dl=1"
+    "provenance-widgets": "^0.0.1"
   }
 }
