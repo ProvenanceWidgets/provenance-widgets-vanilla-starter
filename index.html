@@ -2,22 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-
-    <script type="text/javascript" src="/node_modules/provenance-widgets/web-components/index.js"></script>
-
-    <link rel="stylesheet" href="/node_modules/provenance-widgets/web-components/styles.css" />
+    <title>ProvenanceWidgets Web Components Starter</title>
   </head>
   <body>
-    <label for="wp-slider">Slider</label>
-    <label for="wp-range-slider">Range Slider</label>
-    <label for="wp-inputtext">Input Text</label>
-    <label for="wp-multiselect">Multi Select</label>
-    <label for="wp-dropdown">Dropdown</label>
-    <label for="wp-checkbox">Checkbox</label>
-    <label for="wp-radiobutton">Radio</label>
-    <script type="module" src="/src/main.ts"></script>
+    <main>
+      <h1>ProvenanceWidgets</h1>
+      <p>
+        Change the selection, then use the footprint to switch between
+        Aggregate and Temporal provenance views.
+      </p>
+
+      <section class="example" aria-labelledby="checkbox-heading">
+        <h2 id="checkbox-heading">Checkbox</h2>
+        <web-provenance-checkbox
+          id="starter-checkbox"
+          name="starter-checkbox"
+          data-label="Food"
+          visualize="true"
+        ></web-provenance-checkbox>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

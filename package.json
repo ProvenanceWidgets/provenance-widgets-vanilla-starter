@@ -1,18 +1,25 @@
 {
-  "name": "provenance-widgets-vanilla",
-  "private": true,
+  "name": "provenance-widgets-vanilla-starter",
   "version": "0.0.0",
+  "private": true,
+  "description": "Minimal Web Components starter for ProvenanceWidgets",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.1.6"
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
-    "provenance-widgets": "^0.0.1"
+    "preact": "^10.29.2",
+    "provenance-widgets": "github:LEONL0VE/ProvenanceWidgets#feat/v2-v1-compat",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
   }
 }
