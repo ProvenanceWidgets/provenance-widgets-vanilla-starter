@@ -30,5 +30,4 @@ attributes; `src/main.js` demonstrates this with `data` and `selected`.
 npm run build
 ```
 
-The migration branch installs `provenance-widgets` from its active PW2 GitHub
-branch. Replace that dependency with `^2.0.0` after PW2 is published to npm.
+This starter installs the published `provenance-widgets` 2.x package from npm.
