@@ -7,21 +7,75 @@
   </head>
   <body>
     <main>
-      <h1>ProvenanceWidgets</h1>
-      <p>
-        Change the selection, then use the footprint to switch between
-        Aggregate and Temporal provenance views.
-      </p>
+      <div class="examples">
+        <section class="example" aria-labelledby="slider-heading">
+          <h2 id="slider-heading">Slider</h2>
+          <web-provenance-slider
+            id="starter-slider"
+            data-label="Interaction slider"
+            visualize="true"
+          ></web-provenance-slider>
+        </section>
 
-      <section class="example" aria-labelledby="checkbox-heading">
-        <h2 id="checkbox-heading">Checkbox</h2>
-        <web-provenance-checkbox
-          id="starter-checkbox"
-          name="starter-checkbox"
-          data-label="Food"
-          visualize="true"
-        ></web-provenance-checkbox>
-      </section>
+        <section class="example" aria-labelledby="range-slider-heading">
+          <h2 id="range-slider-heading">Range Slider</h2>
+          <web-provenance-slider
+            id="starter-range-slider"
+            data-label="Interaction range slider"
+            visualize="true"
+          ></web-provenance-slider>
+        </section>
+
+        <section class="example" aria-labelledby="dropdown-heading">
+          <h2 id="dropdown-heading">Dropdown</h2>
+          <web-provenance-dropdown
+            id="starter-dropdown"
+            data-label="City"
+            placeholder="Select a city"
+            visualize="true"
+          ></web-provenance-dropdown>
+        </section>
+
+        <section class="example" aria-labelledby="multiselect-heading">
+          <h2 id="multiselect-heading">Multiselect</h2>
+          <web-provenance-multiselect
+            id="starter-multiselect"
+            data-label="Cities"
+            placeholder="Select cities"
+            visualize="true"
+          ></web-provenance-multiselect>
+        </section>
+
+        <section class="example" aria-labelledby="inputtext-heading">
+          <h2 id="inputtext-heading">Input Text</h2>
+          <web-provenance-inputtext
+            id="starter-inputtext"
+            data-label="Search text"
+            placeholder="Search"
+            visualize="true"
+          ></web-provenance-inputtext>
+        </section>
+
+        <section class="example" aria-labelledby="checkbox-heading">
+          <h2 id="checkbox-heading">Checkbox</h2>
+          <web-provenance-checkbox
+            id="starter-checkbox"
+            name="starter-checkbox"
+            data-label="Cities"
+            visualize="true"
+          ></web-provenance-checkbox>
+        </section>
+
+        <section class="example" aria-labelledby="radiobutton-heading">
+          <h2 id="radiobutton-heading">Radio Button</h2>
+          <web-provenance-radiobutton
+            id="starter-radiobutton"
+            name="starter-radiobutton"
+            data-label="City"
+            visualize="true"
+          ></web-provenance-radiobutton>
+        </section>
+      </div>
     </main>
 
     <script type="module" src="/src/main.js"></script>
