@@ -13,6 +13,6 @@
     "vite": "^5.1.6"
   },
   "dependencies": {
-    "provenance-widgets": "^0.0.1"
+    "provenance-widgets": "^1.0.4"
   }
 }

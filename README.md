@@ -8,7 +8,13 @@ This repository contains the starter code for the Provenance Widgets library. Pr
 
 ## Getting Started
 
-If you wish to start from scratch, jump straight to the [Installation](#Installation) section. To use the starter code, clone this repository and install the dependencies using `npm install`.
+If you wish to start from scratch, jump straight to the [Installation](#installation) section. To use the starter code, clone the `v1` branch and install its dependencies:
+
+```bash
+git clone --branch v1 https://github.com/ProvenanceWidgets/provenance-widgets-vanilla-starter.git
+cd provenance-widgets-vanilla-starter
+npm install
+```
 
 ## Running the App
 
@@ -25,8 +31,7 @@ This will start the app on [http://localhost:5173/](http://localhost:5173/).
 The library can be installed with npm using:
 
 ```sh
-npm i provenance-widgets
-```
+npm i provenance-widgets@^1.0.4
 ```
 
 ## Usage
