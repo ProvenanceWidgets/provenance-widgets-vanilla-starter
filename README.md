@@ -5,7 +5,7 @@ A minimal Vite application using ProvenanceWidgets from vanilla JavaScript.
 ## Getting started
 
 ```bash
-git clone --branch v2 https://github.com/ProvenanceWidgets/provenance-widgets-vanilla-starter.git
+git clone https://github.com/ProvenanceWidgets/provenance-widgets-vanilla-starter.git
 cd provenance-widgets-vanilla-starter
 npm install
 npm run dev
